@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9abb10d9-0e8d-483b-be9d-4a71e4e9bcec" name="Default Changelist" comment="" />
+    <list default="true" id="9abb10d9-0e8d-483b-be9d-4a71e4e9bcec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/exone7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/img/cool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0002_auto_20210512_0225.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0003_auto_20210512_0235.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0004_auto_20210512_0251.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0005_auto_20210512_0304.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0006_auto_20210512_0307.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0007_auto_20210512_0320.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0008_auto_20210512_1320.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0009_category_sn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0010_auto_20210513_0455.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0011_auto_20210514_1806.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0012_auto_20210516_1346.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0013_customer_parent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0014_auto_20210516_1400.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0015_auto_20210516_1405.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0016_auto_20210516_1415.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0017_auto_20210516_1634.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0018_auto_20210517_0146.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0019_auto_20210517_0951.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0020_category_gps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0021_customer_gps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/0022_auto_20210524_2139.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/add_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/add_splitter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/customer_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/customer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/customers_on_splitter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/gpon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/layout-sidenav-light.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/login1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/network.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/organic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/show_customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/templates/snippet_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/customer/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/exone7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/exone7/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/exone7/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/exone7/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/exone7/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exone9/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +116,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1s7uskRi9MUKaEpdZq6B1FQnx6R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../network32h" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,7 +151,22 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="868" y="208" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622585024253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="868" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1622585024253" />
     <state x="623" y="125" key="FileChooserDialogImpl" timestamp="1622553905469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
