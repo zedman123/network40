@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{%block title%}
+Organic Network
+{% endblock%}
+
+
+{% block content %}
+{% block description %}Customers on Splitter{% endblock %}
+
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table mr-1"></i>
+                                GPON Customers
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Address</th>
+                                                <th>Phone</th>
+                                                <th>Splitter</th>
+                                                <th>ONT Number</th>
+                                                <th>Service ID</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Address</th>
+                                                <th>Phone</th>
+                                                <th>Splitter</th>
+                                                <th>ONT Number</th>
+                                                <th>Service ID</th>
+                                            </tr>
+                                        </tfoot>
+                                        <tbody>
+
+                                        {% if customer in customers %}
+                                            <tr>
+                                                <td>{{customer.name|truncatechars:50}}</td>
+                                                <td>{{customer.address|truncatechars:50}}</td>
+                                                <td>{{customer.phone|truncatechars:50}}</td>
+                                                 <td><a href="">{{customer.splitter32}}</a></td>
+                                                <td>{{customer.ont|truncatechars:50}}</td>
+                                                <td>{{customer.service_id|truncatechars:50}}</td>
+                                            </tr>
+                                        {% else %}
+
+                                        <p>there are no customers on this splitter </p>
+
+                                        {% endif %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+{% endblock %}

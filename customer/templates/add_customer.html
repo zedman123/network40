@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% load static %}
+<link rel="stylesheet" href="/static/styles/main.css" />
+<style>
+	.form-row {
+	width:60%;
+	}
+
+    body {
+    background-image:url('{% static 'images/cool.jpg' %}');
+
+    }
+</style>
+<h2><u><center>Add Customer</center></u></h2>
+<center>
+
+  <!-- Form -->
+
+
+
+	<form class="form-row" method="POST" action="{% url 'add_customer' %}">
+		{% csrf_token %}
+		<div class="row uniform">
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="cid" id="cid" value="" placeholder="Customer ID" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="fname" id="fname" value="" placeholder="First Name" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="lname" id="lname" value="" placeholder="Last Name" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="address" id="address" value="" placeholder="Address" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="phone" id="phone" value="" placeholder="Phone" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="whatsapp" id="whatsapp" value="" placeholder="Whatsapp Number" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="email" name="email" id="email" value="" placeholder="Email" />
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="ont" id="ont" value="" placeholder="ONT Number" />
+			</div>
+
+			<div class="12u$">
+				<div class="select-wrapper">
+					<select name="sid" id="sid">
+						<option value="">- Splitter ID -</option>
+						<option value="kab1">Kab 1</option>
+						<option value="kab2">Kab 2</option>
+						<option value="kab3">Kab 3</option>
+						<option value="kab4">Kab 4</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="disttosplitter" id="distosplitter" value="" placeholder="Distance to Splitter" />
+			</div>
+
+			<div class="12u$">
+				<div class="select-wrapper">
+					<select name="status" id="status">
+						<option value="">- Status -</option>
+						<option value="active">Active</option>
+						<option value="suspended">Suspended</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="12u$">
+				<div class="select-wrapper">
+					<select name="installer" id="installer">
+						<option value="">- Installer -</option>
+						<option value="Astralz">Astralz</option>
+						<option value="Mutech">Mutech</option>
+						<option value="Nexcon">Nexcon</option>
+						<option value="Edge">Edge</option>
+					</select>
+				</div>
+			</div>
+
+
+			<!-- Break -->
+
+			<!-- Break -->
+
+			<!-- Break -->
+			<div class="12u$">
+				<textarea name="notes" id="notes" placeholder="Notes..." rows="6"></textarea>
+			</div>
+			<!-- Break -->
+			<div class="12u$">
+				<ul class="actions">
+					<li><input type="submit" value="submit" /></li>
+					<li><input type="reset" value="Reset" class="alt" /></li>
+				</ul>
+			</div>
+		</div>
+	</form>
+
+
+</center>
+{% endblock %}
+
+
